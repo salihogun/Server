@@ -1,0 +1,26 @@
+﻿<mah:MetroWindow  x:Class="CallMee.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="307.5">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="Auto"/>
+            <RowDefinition  Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Button  Grid.Row="1" Content="ClickTry"  Command="{Binding Path=ClickMe}"></Button>
+        <ListView
+            Grid.Column="1" Margin="3,0,-222,-273" 
+            Background="Red"
+            x:Name="LogList" ItemsSource="{Binding List}" Grid.Row="1"/>
+
+
+    </Grid>
+</mah:MetroWindow>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallMee", "CallMee\CallMee.csproj", "{8AE8BE2D-7844-4376-AD3D-2261E7EFC771}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AE8BE2D-7844-4376-AD3D-2261E7EFC771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE8BE2D-7844-4376-AD3D-2261E7EFC771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE8BE2D-7844-4376-AD3D-2261E7EFC771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE8BE2D-7844-4376-AD3D-2261E7EFC771}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BE830A9-9553-4F4C-BB2F-461342C79A09}
+	EndGlobalSection
+EndGlobal
